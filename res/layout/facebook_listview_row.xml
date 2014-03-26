@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    
+    <!-- From -->
+    <TextView 
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:typeface="sans"
+        android:textSize="13dip"
+        android:textStyle="bold" />
+    
+    <!-- Picture -->        
+    <ImageView 
+        android:id="@+id/list_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/from" />
+    
+    <!-- To -->
+    <TextView 
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_picture"
+        android:textSize="11dip"
+        android:layout_marginTop="3dip"
+        android:text="to" />
+    
+    <!-- Created Time -->
+    <TextView 
+        android:id="@+id/createdTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/to"
+        android:textSize="11dip"
+        android:layout_marginTop="3dip"
+        android:text="Created time" />
+    
+    
+    <!-- Message / Story -->
+    <TextView 
+        android:id="@+id/msgStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createdTime"
+        android:textSize="11dip"
+        android:layout_marginTop="3dip"
+        android:text="Message / Story" />
+    
+    
+    <!-- Description -->
+    <TextView 
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msgStory"
+        android:textSize="11dip"
+        android:layout_marginTop="3dip"
+        android:text="Description" />
+    
+    <!-- Tagged -->
+    <TextView 
+        android:id="@+id/tagged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:textSize="11dip"
+        android:layout_marginTop="3dip"
+        android:text="Tagged" />
+    
+    <!-- Likes -->
+    <TextView 
+        android:id="@+id/likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tagged"
+        android:textSize="11dip"
+        android:layout_marginTop="3dip"
+        android:text="Likes" />
+    
+    <!-- Comments -->
+    <TextView 
+        android:id="@+id/comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/likes"
+        android:textSize="11dip"
+        android:layout_marginTop="3dip"
+        android:text="Comments" />
+    
+
+</RelativeLayout>
